@@ -3,6 +3,15 @@ permalink: pretty
 markdown: kramdown
 paginate: 5
 repo: maptimeatx.github.io
+org: maptimeatx
 maptime:
   chapter: MaptimeATX
   twitter: MaptimeATX
+organizers:
+  - name: James Seppi
+    twitter: hydrologee
+    email: james.seppi@gmail.com
+
+  - name: Andy Wilson
+    twitter: wilsajj
+    email: wilson.andrew.j@gmail.com

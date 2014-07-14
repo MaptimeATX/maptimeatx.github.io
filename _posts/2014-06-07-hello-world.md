@@ -3,5 +3,4 @@ layout: post
 title: Hello world
 ---
 
-Replace this post with an introduction to your MapTime meetup! Posts
-are written in [Markdown](https://guides.github.com/features/mastering-markdown/).
+MaptimeATX is the Austin, TX, branch of [Maptime](http://maptime.io)! Yeehaw!
