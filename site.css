@@ -119,10 +119,7 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
 .fill-darken1 { background-color:rgba(0,0,0,0.25); }
 
 .fill-chapter {
-  /* Replace this with a map of your city */
-  /* background-image:url(img/toronto.png); */
-  background-repeat:no-repeat;
-  background-size:cover;
+  background: rgba(0,0,0,0.35);
   max-width:100%;
   }
 
@@ -205,4 +202,10 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
   .sidebar, .content { width:100%; }
   .sidebar { padding:0; }
   header .limiter { padding:120px 0 0; }
+}
+
+#headerMap {
+  height: 200px;
+  width: 100%;
+  position: absolute;
 }
