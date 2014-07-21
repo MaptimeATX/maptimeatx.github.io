@@ -5,7 +5,7 @@ var map = L.map('headerMap', {
 scrollWheelZoom: false,
 touchZoom: false
 }).setView([30.279230329403315, -97.7164363861084], 13);
-var newLayer = L.tileLayer('https://a.tiles.mapbox.com/v3/jseppi.ipgbh1ko/{z}/{x}/{y}.png', {
+var newLayer = L.tileLayer('https://{s}.tiles.mapbox.com/v3/jseppi.ipgbh1ko/{z}/{x}/{y}.png', {
 subdomains: 'abcd',
 attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
 });
