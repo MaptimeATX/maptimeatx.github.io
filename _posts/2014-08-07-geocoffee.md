@@ -2,7 +2,7 @@
 layout: event
 category: event
 title: GeoCoffee
-rsvp: http://www.meetup.com/MaptimeATX/events/194124112/
+rsvp: http://www.meetup.com/MaptimeATX/events/197814562/
 ---
 
 Our first GeoCoffee had a pretty decent turnout, so let's have another!
