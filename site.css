@@ -83,7 +83,7 @@ h6 a:hover { text-decoration:none;}
     background-position:0 0;
     width:385px;
     height:140px;
-    top:-10px;
+    top:20px;
     }
   .sprite.marker {
     background-position:-385px 0;
@@ -202,6 +202,7 @@ a.fill-darken0:hover  { background-color:rgba(0,0,0,0.15); }
   .sidebar, .content { width:100%; }
   .sidebar { padding:0; }
   header .limiter { padding:120px 0 0; }
+  .sprite.maptime { background-size: 435px auto; width: 265px; }
 }
 
 #headerMap {
