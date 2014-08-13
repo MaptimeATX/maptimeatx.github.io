@@ -2,6 +2,7 @@
 layout: event
 category: event
 title: GeoCoffee
+published: false
 rsvp: http://www.meetup.com/MaptimeATX/events/197814562/
 ---
 
