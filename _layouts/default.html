@@ -102,19 +102,21 @@
 <script>
   var rsvp = document.getElementById('rsvpdate');
   var date,formatted,link;
-  {% assign sortedEvents = site.categories.event | sort: 'date' %}
-  {% for item in sortedEvents | limit: 1 %}
-    date = '{{item.date}}';
-    formatted = '{{item.date | date:"%A, %b %d %Y"}}';
-    link = '{{item.rsvp}}';
-  {% endfor %}
+  {% if site.categories.event %}
+    {% assign sortedEvents = site.categories.event | sort: 'date' %}
+    {% for item in sortedEvents | limit: 1 %}
+      date = '{{item.date}}';
+      formatted = '{{item.date | date:"%A, %b %d %Y"}}';
+      link = '{{item.rsvp}}';
+    {% endfor %}
 
-  if (date && new Date().getTime() <= new Date(date).getTime() + (24 * 60 * 60 * 1000)) {
-    rsvp.innerHTML = '<h3>' + formatted + '</h3>' +
-    '<a class="button fill-orange block" href=' + link + '>RSVP</a>';
-  } else {
-    rsvp.innerHTML = '<h3>TBA</h3>';
-  }
+    if (date && new Date().getTime() <= new Date(date).getTime() + (24 * 60 * 60 * 1000)) {
+      rsvp.innerHTML = '<h3>' + formatted + '</h3>' +
+      '<a class="button fill-orange block" href=' + link + '>RSVP</a>';
+    } else {
+      rsvp.innerHTML = '<h3>TBA</h3>';
+    }
+  {% endif %}
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
