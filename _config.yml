@@ -7,6 +7,7 @@ org: maptimeatx
 maptime:
   chapter: MaptimeATX
   twitter: MaptimeATX
+  github: MaptimeATX
 organizers:
   - name: James Seppi
     twitter: hydrologee
