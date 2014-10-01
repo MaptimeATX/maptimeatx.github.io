@@ -3,7 +3,7 @@ layout: event
 category: event
 title: Map Styling with TileMill
 rsvp: http://www.meetup.com/MaptimeATX/events/204661092/
-published: true
+published: false
 ---
 
 At this meeting we'll be learning the basics of map styling using *CartoCSS* in the *TileMill* program.
