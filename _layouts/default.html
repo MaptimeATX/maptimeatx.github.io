@@ -91,8 +91,10 @@
       rsvp.innerHTML = '<h3>' + formatted + '</h3>' +
       '<a class="button fill-orange block" href=' + link + '>RSVP</a>';
     } else {
-      rsvp.innerHTML = '<h3>TBA</h3>';
+      rsvp.innerHTML = '<h3>To be announced soon</h3>';
     }
+  {% else %}
+    rsvp.innerHTML = '<h3>To be announced soon</h3>';
   {% endif %}
 </script>
 <script>
