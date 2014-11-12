@@ -4,6 +4,7 @@ markdown: kramdown
 paginate: 5
 repo: maptimeatx.github.io
 org: maptimeatx
+orgemail: austin@maptime.io
 maptime:
   chapter: MaptimeATX
   twitter: MaptimeATX
