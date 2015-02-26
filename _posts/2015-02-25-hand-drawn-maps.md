@@ -3,7 +3,7 @@ layout: event
 category: event
 title: Hand-Drawn Maps with Austin's Atlas
 rsvp: http://www.meetup.com/MaptimeATX/events/220192710/
-published: true
+published: false
 ---
 
 For February's Maptime, we're going to move away from our usual technology focus to learn about creating hand-drawn maps with local artist & architect [Ann Armstrong](http://ann-made.org). Super cool!
