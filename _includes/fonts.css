@@ -29,3 +29,6 @@
 .icon-github:before {
 	content: "\e601";
 }
+.icon-meetup:before {
+	content: "\e602";
+}
