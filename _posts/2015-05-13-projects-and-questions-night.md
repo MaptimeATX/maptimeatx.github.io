@@ -3,7 +3,7 @@ layout: event
 category: event
 title: Projects and Questions Night
 rsvp: http://www.meetup.com/MaptimeATX/events/222303524/
-published: true
+published: false
 ---
 
 Come get together with all your mapping friends and friends-to-be for Projects and Questions Night!
