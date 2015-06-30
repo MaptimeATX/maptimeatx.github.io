@@ -92,14 +92,6 @@ p {
   }
   p:last-child { margin-bottom:0;}
 
-/* Links */
-a {
-  text-decoration:none;
-  }
-  a:hover {
-    text-decoration:none;
-    }
-
 abbr {
   border-bottom:1px dotted #000;
   cursor:help;
