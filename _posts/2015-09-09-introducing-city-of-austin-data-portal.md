@@ -3,7 +3,7 @@ layout: event
 category: event
 title: Introducing the City of Austin Data Portal
 rsvp: http://www.meetup.com/MaptimeATX/events/224718026/
-published: true
+published: false
 ---
 
 The City of Austin data portal is like a portal to another world …of data! This
